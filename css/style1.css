@@ -1,0 +1,137 @@
+/*--for portfolio--*/
+/*--portfolio filter--*/
+.content:hover{
+    position: relative;
+    box-shadow: 4px 2px 3px 1px rgba(0, 0, 0, 0.06);
+    background: #fbf7f7;
+    transform: translatey(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    color: #fb244b;
+
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+    padding: 8px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide columns by default */
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* Add a dark background color to the active button */
+  .btn.active {
+    background-color: #fb244b;
+     color: white;
+  }
+
+  /*--portfolio filter--*/
+
+  /*--counter--*/
+  .stats_infoinhny{
+    background-color:#222;
+
+  }
+/*--/stats--*/
+.w3l-stats-inner-inf {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  /* margin-top: -140px; */
+  margin-bottom: 0px;
+  padding: -1px 60px;
+  z-index: 9;
+  background-color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  width: 600px;
+  right: 0%;
+  position: absolute;
+  bottom: -26%;
+}
+
+.ab-inf-stat {
+  margin-bottom: 7em;
+}
+
+.stats_info h3 {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #605002;
+  display: inline-block;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+p.counter {
+  font-size: 60px;
+  font-weight: 700;
+  color: #222;
+  margin: 0px 0 16px 0px;
+  display: block;
+}
+
+p.para-counter {
+  color: #fff;
+}
+
+
+/*--//about-pages-grids--*/
+  /*--portfolio--*/
