@@ -154,7 +154,7 @@ $sql=mysqli_query($con,"insert into contact(name,email,subject,message)values(
 				</div>
 				<div class="contact-right-grid">
 					<div class="wthree-contact-form">
-						<form action="contact.php" method="POST">
+						<form action="contact.php" method="POST" netlify>
 							<input type="text" name="name" placeholder="Name" required="">
 							<input type="email" class="email" name="email" placeholder="Email" required="">
 							<input type="text" name="subject" placeholder="Subject" required="">
