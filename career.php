@@ -154,7 +154,7 @@ $sql=mysqli_query($con,"insert into career(name,email,contact,skills,message,myF
 				
 				<div class="contact-right-grid">
 					<div class="wthree-contact-form">
-						<form action="career.php" method="POST">
+						<form action="career.php" method="POST" netlify>
 							<input type="text" name="name" placeholder="Name" required="">
 							<input type="email" class="email" name="email" placeholder="Email" required="">
 							<input type="text"  class="integer" name="contact" placeholder="Contact" required="">
